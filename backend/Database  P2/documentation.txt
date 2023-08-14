@@ -1,0 +1,7 @@
+getallquestion   ---->1 get all question  -------->get
+addquestion      ----> add question       -------->post
+getquestionwithanswer     ----> get question with answer      
+base url:    localhost:5000/question/
+
+
+

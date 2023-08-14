@@ -1,0 +1,35 @@
+getalldata                       -------->1 get all energies
+getchildren/var                  -------->2 get children of var
+getparent/var                    -------->3 get parent of var
+getexamples/var                  -------->4 get examples of var
+getcharacteristics/var           -------->5 get characteristics of var
+getlevel/var                     -------->6 get level of var
+getdomain/var                    -------->7 get domain of var
+getsubdomain/var                 -------->8 get subdomain of var
+getconcept/var                   -------->9 get concept of var
+        -----------------------$$$base url:    localhost:5000/energy/----------------------------
+
+
+addenergy               ---------->1 post   addEnergy      { name, definition, examples, characteristics, parentName,domain,subDomain,concept,level} = req.body;
+updateenergy/:part      ---------->2 patch  updateEnergy   body
+deleteenergy/:part      ---------->3 delete deleteEnergy   body
+         -----------------------$$$base url:    localhost:5000/energy/----------------------------
+
+
+
+
+getalllesson                     -------->1 get All Lessons
+getlessonbynumber                -------->2 get Nodes in lesson by lesson number                    ----->post          -------->body
+getlessonbyid                    -------->3 get Nodes in lesson by lesson ID                        ----->post          -------->body
+gettwolessonbynumber             -------->4 get Nodes in two lessons by lesson number               ------>post          -------->body
+gettwolessonbyid                 -------->5 get Nodes in two lessons by lesson ID                   ------>post          -------->body
+gettwolessonbyidandindicator     -------->6 get Nodes in two lessons by lesson ID And Inducator     ------>post          -------->body(currentLessonId,indicator)
+        -----------------------$$$base url:    localhost:5000/lesson/-------------------------------
+
+
+addlesson                          ---------->1 addLesson                 {lessonName,lessonNumber,nodes } = req.body
+updatelessonnameornumber/:part     ---------->2 updateLessonNameOrNumber
+addnodes/:name                     ---------->3 addNodes                  { nodes } = req.body
+deletenodefromlesson/:lessonName   ---------->4 deleteNodeFromLesson      {NodeName}=req.body
+deletelesson/:part                 ---------->5  deleteLesson
+        -----------------------$$$base url:    localhost:5000/lesson/-------------------------------

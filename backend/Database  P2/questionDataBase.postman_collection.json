@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "8f7a21f4-565f-439f-9cdd-c7ef6ffea2ad",
+		"name": "questionDataBase",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24502609"
+	},
+	"item": [
+		{
+			"name": "question",
+			"item": [
+				{
+					"name": "get question",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"node1\":\"energy\",\r\n     \"node2\":\"chemical energy\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/question/getquestions",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"question",
+								"getquestions"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

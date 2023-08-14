@@ -1,0 +1,7 @@
+mongodb+srv://sist14642:MXOJbvIe49iqF9pF@energydb.qlobenu.mongodb.net/?retryWrites=true&w=majority 
+
+mongodb://127.0.0.1:27017/projectDataBase
+link mongo atlas
+
+sist14642@gmail.com
+7070@Team

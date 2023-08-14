@@ -1,0 +1,7 @@
+mongodb+srv://sist14642:FA6UwgjJnmpkuhAH@cluster0.2qrv4bk.mongodb.net/?retryWrites=true&w=majority
+mongodb://127.0.0.1:27017/questionDatabase
+
+link mongo atlas
+
+sist14642@gmail.com
+7070@Team
